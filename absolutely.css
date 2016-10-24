@@ -4,6 +4,24 @@ body {
 	font-size : 14px;
 	background-color : black;
 	/* toe te voegen */
+} 
+#backgroundthing {
+	background-image: url(bar1.png);
+}
+aside {
+	height: 300px;
+	width: 700px;
+	opacity: 0.3;
+	background-color: white;
+	position: relative;
+	top: 300px;
+}
+article {
+	position: absolute;
+	width: 680px;
+	padding-left: 10px;
+	padding right: 20px;
+	padding-top: 0;
 }
 .all {
 	text-align : left;
@@ -14,3 +32,53 @@ body {
 	border : 4px solid red;
 }
 
+#hammer {
+	left: 820px;
+	top:40px;
+	position: absolute;
+}
+#pincers {
+	position: absolute;
+	left: 885px;
+	top: 310px;
+}
+#saw {
+	position: absolute;	
+	left: 280px;
+	top: 190px;
+}
+#title {
+	position: absolute;
+	top: 60px;
+	left: 345px;
+}
+#screwdriver {
+	position: absolute;
+	left: 870px;
+	top: 220px;
+}
+#toolbox {
+	right: 545px;
+	position: absolute;
+	top:265px;
+}
+#humanfactor{
+	color: blue;
+}
+#factorhuman {
+	color: black;
+	background-color: white;
+	position: absolute;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: blue;
+	padding: 5px;
+	width: 220px;
+	height: 55px;
+	display: none;
+}
+#humanfactor:hover #factorhuman {
+	display: block;
+}
+#blackbar
